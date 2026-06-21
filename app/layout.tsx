@@ -23,6 +23,11 @@ export const metadata: Metadata = {
   title: "Cambridge Academic Centre Chittagong | English, IELTS & Personal Development Courses",
   description:
     "Cambridge Academic Centre Chittagong is a premium English Language and Personal Development Institute. We offer IELTS, TOEFL, Speaking, Listening, Reading, Writing, Grammar, Business English, Public Speaking, Confidence Building and Leadership Development programmes for children, teenagers, adults and professionals. 146 North Nalapara, Chittagong. Call +44 7762 308 545.",
+  icons: {
+    icon: "/favicon.ico", // Standard favicon
+    shortcut: "/favicon-16x16.png", // Optional
+    apple: "/apple-touch-icon.png", // For iOS devices
+  },
   keywords: [
     "IELTS Chittagong",
     "TOEFL Chittagong",
