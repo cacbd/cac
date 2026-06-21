@@ -8,7 +8,7 @@ import styles from './about.module.css';
 export const metadata: Metadata = {
   title: 'About Cambridge Academic Centre Chittagong — Our Story, Team & Philosophy',
   description:
-    'Learn about Cambridge Academic Centre Chittagong — founded in 2013, 500+ students trained, CELTA & DELTA-certified teachers. Our story, teaching philosophy, team, and accreditations.',
+    'Discover Cambridge Academic Centre Chittagong. Learn under expert, CELTA & DELTA-certified teachers with a score-driven curriculum. Explore our modern campus, story, and teaching philosophy.',
   keywords: [
     'about Cambridge Academic Centre',
     'English coaching centre Chittagong',
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   alternates: { canonical: 'https://cac.bd/about' },
   openGraph: {
     title: 'About Cambridge Academic Centre Chittagong',
-    description: 'Our story, team, teaching philosophy, and accreditations. Founded 2013. 500+ students trained.',
+    description: 'Discover Cambridge Academic Centre Chittagong. Learn under expert, CELTA & DELTA-certified teachers with a score-driven curriculum. Explore our modern campus, story, and teaching philosophy..',
     url: 'https://cac.bd/about',
   },
 };
@@ -29,12 +29,11 @@ const schema = {
   '@context': 'https://schema.org',
   '@type': 'AboutPage',
   name: 'About Cambridge Academic Centre Chittagong',
-  description: 'Founded in 2013 at 146 North Nalapara, Chittagong. 500+ students trained. CELTA & DELTA-certified faculty.',
+  description: 'Meet the team at Cambridge Academic Centre Chittagong. Offering premium IELTS and English language training with CELTA & DELTA-certified trainers and top-tier facilities.',
   url: 'https://cac.bd/about',
   mainEntity: {
     '@type': 'EducationalOrganization',
     name: 'Cambridge Academic Centre Chittagong',
-    foundingDate: '2013',
     address: {
       '@type': 'PostalAddress',
       streetAddress: '146 North Nalapara',
@@ -49,46 +48,34 @@ const schema = {
 /* ---- Data ---- */
 const timeline = [
   {
-    year: '2013',
-    en: 'Founded with 12 students at 146 North Nalapara',
-    bn: '১৪৬ উত্তর নালাপাড়ায় ১২ জন শিক্ষার্থী নিয়ে প্রতিষ্ঠিত',
+    year: 'Phase 1',
+    en: 'Centre design and facility setup at 146 North Nalapara, Chittagong',
+    bn: '১৪৬ উত্তর নালাপাড়া, চট্টগ্রামে কেন্দ্রের নকশা ও সুবিধা স্থাপন',
     active: false,
   },
   {
-    year: '2015',
-    en: 'Expanded to 5 classrooms; launched IELTS Preparation Lab',
-    bn: '৫টি শ্রেণিকক্ষে সম্প্রসারিত; আইইএলটিএস প্রস্তুতি ল্যাব চালু',
+    year: 'Phase 2',
+    en: 'Modern classroom setup with eye-friendly, spacious learning environment',
+    bn: 'চোখ-বান্ধব, প্রশস্ত শিক্ষার পরিবেশ সহ আধুনিক শ্রেণিকক্ষ স্থাপন',
     active: false,
   },
   {
-    year: '2017',
-    en: 'Introduced Kids & Teens programme; 500th student milestone',
-    bn: 'শিশু ও কিশোর প্রোগ্রাম চালু; ৫০০তম শিক্ষার্থী মাইলফলক',
-    active: false,
-  },
-  {
-    year: '2019',
-    en: 'Launched Business English & Professional Development tracks',
-    bn: 'ব্যবসায়িক ইংরেজি ও পেশাদার উন্নয়ন ট্র্যাক চালু',
-    active: false,
-  },
-  {
-    year: '2021',
-    en: 'Blended learning introduced; online mock-test platform launched',
-    bn: 'মিশ্র শিক্ষা চালু; অনলাইন মক-টেস্ট প্ল্যাটফর্ম চালু',
-    active: false,
-  },
-  {
-    year: '2024',
-    en: '2,000th student trained; DELTA-certified faculty team complete',
-    bn: '২,০০০তম শিক্ষার্থী প্রশিক্ষিত; ডেল্টা-সার্টিফাইড শিক্ষক দল সম্পূর্ণ',
-    active: false,
-  },
-  {
-    year: '2026',
-    en: 'Serving 400+ active students across 11 programmes',
-    bn: '১১টি প্রোগ্রামে ৪০০+ সক্রিয় শিক্ষার্থীকে সেবা প্রদান',
+    year: 'Phase 3',
+    en: 'Assembly of DELTA-certified instructors and high-tech IELTS Prep Lab',
+    bn: 'ডেল্টা-সার্টিফাইড শিক্ষক দল এবং উচ্চ-প্রযুক্তি আইইএলটিএস প্রিপারেশন ল্যাব',
     active: true,
+  },
+  {
+    year: 'Phase 4',
+    en: 'Launch of general English, spoken tracks, and child-literacy programmes',
+    bn: 'সাধারণ ইংরেজি, স্পোকেন ট্র্যাক এবং শিশুদের সাক্ষরতা প্রোগ্রাম চালু',
+    active: false,
+  },
+  {
+    year: 'Phase 5',
+    en: 'Expansion into Business English and dedicated online mock-test platform',
+    bn: 'ব্যবসায়িক ইংরেজি এবং অনলাইন মক-টেস্ট প্ল্যাটফর্মে সম্প্রসারণ',
+    active: false,
   },
 ];
 
@@ -254,10 +241,10 @@ export default function AboutPage() {
               এই বিশ্বাসের উপর প্রতিষ্ঠিত যে সবাই ইংরেজি বলতে পারে।
             </p>
             <p className={styles.heroParagraph}>
-              Cambridge Academic Centre was founded in Chittagong with one conviction: access to quality English education should not be a privilege. Twelve years on, that conviction still drives everything we do.
+              Cambridge Academic Centre was founded in Chittagong with one conviction: access to quality English education should not be a privilege. We believe every learner deserves the opportunity to speak confidently, communicate clearly, and succeed globally.
             </p>
             <p className={styles.heroParagraphBn}>
-              ক্যামব্রিজ একাডেমিক সেন্টার চট্টগ্রামে একটি বিশ্বাস নিয়ে প্রতিষ্ঠিত হয়েছিল: মানসম্পন্ন ইংরেজি শিক্ষার সুযোগ বিশেষাধিকার হওয়া উচিত নয়। বারো বছর পরেও সেই বিশ্বাস আমাদের সবকিছু পরিচালিত করে।
+              ক্যামব্রিজ একাডেমিক সেন্টার চট্টগ্রামে একটি বিশ্বাস নিয়ে প্রতিষ্ঠিত হয়েছে: মানসম্পন্ন ইংরেজি শিক্ষার সুযোগ বিশেষাধিকার হওয়া উচিত নয়। আমরা বিশ্বাস করি প্রতিটি শিক্ষার্থী আত্মবিশ্বাসের সাথে কথা বলার, স্পষ্টভাবে যোগাযোগ করার এবং বিশ্বব্যাপী সাফল্য অর্জনের সুযোগ পাওয়ার যোগ্য।
             </p>
           </div>
           <AboutCounters />
@@ -268,37 +255,37 @@ export default function AboutPage() {
         ============================================================ */}
         <section className={`${styles.section} ${styles.sectionWhite}`}>
           <div className="container">
-            <p className={styles.sectionLabel}>/ Founding Story / প্রতিষ্ঠার গল্প</p>
+            <p className={styles.sectionLabel}>/ Our Mission / আমাদের লক্ষ্য</p>
             <h2 className={styles.sectionTitle}>
-              From a single classroom<br />
-              to Chittagong&apos;s most trusted<br />
+              Building Chittagong&apos;s<br />
+              most trusted<br />
               <em className={styles.sectionTitleAccent}>English centre.</em>
             </h2>
-            <p className={styles.sectionTitleBn}>একটি শ্রেণিকক্ষ থেকে চট্টগ্রামের সবচেয়ে বিশ্বস্ত ইংরেজি কেন্দ্রে।</p>
+            <p className={styles.sectionTitleBn}>চট্টগ্রামের সবচেয়ে বিশ্বস্ত ইংরেজি কেন্দ্র গড়ে তোলা।</p>
 
             <div className={styles.storyLayout}>
               {/* Left: text */}
               <div className={styles.storyText}>
                 <p>
-                  In 2013, <strong>Md. Rafiqul Islam</strong> returned to Chittagong after completing his CELTA certification in Dhaka. He had seen first-hand how transformative confident English could be — and how few students in Chittagong had access to the kind of instruction that actually produced results.
+                  Cambridge Academic Centre was established with a clear vision: to bring world-class English language training to the heart of Chittagong. We recognised that students in our city deserved access to the same quality of instruction available in Dhaka or abroad — without having to leave home.
                 </p>
                 <p className={styles.storyTextBn}>
-                  ২০১৩ সালে, মো. রফিকুল ইসলাম ঢাকায় তার সেল্টা সার্টিফিকেশন সম্পন্ন করার পর চট্টগ্রামে ফিরে আসেন। তিনি প্রত্যক্ষভাবে দেখেছিলেন আত্মবিশ্বাসী ইংরেজি কতটা রূপান্তরকারী হতে পারে।
+                  ক্যামব্রিজ একাডেমিক সেন্টার একটি স্পষ্ট দৃষ্টিভঙ্গি নিয়ে প্রতিষ্ঠিত হয়েছে: চট্টগ্রামের কেন্দ্রে বিশ্বমানের ইংরেজি ভাষা প্রশিক্ষণ নিয়ে আসা। আমরা বুঝতে পেরেছি আমাদের শহরের শিক্ষার্থীদের ঢাকা বা বিদেশে উপলব্ধ একই মানের নির্দেশনার সুযোগ পাওয়ার অধিকার আছে — বাড়ি ছেড়ে না গিয়েই।
                 </p>
                 <p>
-                  He opened Cambridge Academic Centre at <strong>146 North Nalapara</strong> with twelve students, two whiteboards, and a clear philosophy: small classes, qualified teachers, and a relentless focus on communication over memorisation.
+                  Our centre at <strong>146 North Nalapara</strong> was designed with one philosophy: small classes, qualified teachers, modern facilities, and a relentless focus on communication over memorisation. Every classroom is built to create an environment where students feel comfortable practising real-world English.
                 </p>
                 <p className={styles.storyTextBn}>
-                  তিনি ১৪৬ উত্তর নালাপাড়ায় বারোজন শিক্ষার্থী, দুটি হোয়াইটবোর্ড এবং একটি স্পষ্ট দর্শন নিয়ে ক্যামব্রিজ একাডেমিক সেন্টার খোলেন।
+                  ১৪৬ উত্তর নালাপাড়ায় আমাদের কেন্দ্র একটি দর্শন নিয়ে ডিজাইন করা হয়েছে: ছোট ক্লাস, যোগ্য শিক্ষক, আধুনিক সুযোগ-সুবিধা, এবং মুখস্থ করার চেয়ে যোগাযোগের উপর অবিচল জোর। প্রতিটি শ্রেণিকক্ষ এমন একটি পরিবেশ তৈরি করতে নির্মিত যেখানে শিক্ষার্থীরা বাস্তব-জীবনের ইংরেজি অনুশীলন করতে স্বাচ্ছন্দ্য বোধ করে।
                 </p>
                 <p className={styles.storyHighlight}>
-                  &ldquo;The address has not changed. Neither has the conviction.&rdquo;
+                  &ldquo;Quality English education for every learner in Chittagong.&rdquo;
                 </p>
                 <p>
-                  Word spread quickly. Within two years the centre had expanded to five classrooms and a dedicated IELTS preparation lab. Today, Cambridge Academic Centre serves over 400 active students across 11 programmes.
+                  We offer IELTS preparation, TOEFL training, spoken English, business English, and specialised programmes for children and teens. Our mission is simple: help students in Chittagong achieve their academic, professional, and personal goals through confident English communication.
                 </p>
                 <p className={styles.storyTextBn}>
-                  দ্রুত কথা ছড়িয়ে পড়ে। দুই বছরের মধ্যে কেন্দ্রটি পাঁচটি শ্রেণিকক্ষ এবং একটি নিবেদিত আইইএলটিএস প্রস্তুতি ল্যাবে সম্প্রসারিত হয়।
+                  আমরা আইইএলটিএস প্রস্তুতি, টোয়েফল প্রশিক্ষণ, স্পোকেন ইংরেজি, ব্যবসায়িক ইংরেজি, এবং শিশু ও কিশোরদের জন্য বিশেষায়িত প্রোগ্রাম অফার করি। আমাদের লক্ষ্য সহজ: আত্মবিশ্বাসী ইংরেজি যোগাযোগের মাধ্যমে চট্টগ্রামের শিক্ষার্থীদের তাদের একাডেমিক, পেশাদার এবং ব্যক্তিগত লক্ষ্য অর্জনে সাহায্য করা।
                 </p>
               </div>
 
