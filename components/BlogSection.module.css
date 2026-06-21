@@ -1,0 +1,188 @@
+/* ============================================================
+   HOMEPAGE BLOG SECTION
+   ============================================================ */
+.section {
+  background: var(--background);
+  border-top: 1px solid var(--border);
+  padding: 80px 0;
+}
+@media (min-width: 640px) { .section { padding: 112px 0; } }
+
+/* Header */
+.sectionHeader {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+@media (min-width: 640px) {
+  .sectionHeader {
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(32px, 5vw, 56px);
+  font-weight: 300;
+  color: var(--foreground);
+  letter-spacing: -0.02em;
+  line-height: 1.05;
+  margin-top: 12px;
+}
+.titleAccent { font-style: italic; color: var(--primary); }
+.titleBn { font-size: 13px; color: var(--muted-foreground); margin-top: 4px; }
+
+.viewAll {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--primary);
+  text-decoration: none;
+  flex-shrink: 0;
+  transition: gap var(--transition);
+}
+.viewAll:hover { gap: 14px; }
+.viewAllLine {
+  display: inline-block;
+  width: 28px;
+  height: 1px;
+  background: var(--primary);
+  transition: width var(--transition);
+}
+.viewAll:hover .viewAllLine { width: 40px; }
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2px;
+}
+@media (min-width: 640px)  { .grid { grid-template-columns: repeat(2, 1fr); } }
+@media (min-width: 1024px) { .grid { grid-template-columns: repeat(3, 1fr); } }
+
+/* Card */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.35s cubic-bezier(.16,1,.3,1), box-shadow 0.35s cubic-bezier(.16,1,.3,1);
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+
+/* Card image placeholder */
+.cardThumb {
+  height: 148px;
+  background: linear-gradient(135deg, var(--primary) 0%, #0a5c72 100%);
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.cardThumb::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 30% 40%, rgba(255,255,255,0.1) 0%, transparent 60%);
+}
+.cardThumbText {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: 300;
+  color: rgb(253, 253, 253);
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 0 12px;
+  line-height: 1.2;
+}
+
+.catIelts    { background: linear-gradient(135deg, #0e7490 0%, #0a5c72 100%); }
+.catToefl    { background: linear-gradient(135deg, #1e40af 0%, #1e3a8a 100%); }
+.catSpeaking { background: linear-gradient(135deg, #7c3aed 0%, #5b21b6 100%); }
+.catKids     { background: linear-gradient(135deg, #d97706 0%, #b45309 100%); }
+.catBusiness { background: linear-gradient(135deg, #065f46 0%, #064e3b 100%); }
+.catGeneral  { background: linear-gradient(135deg, #0e7490 0%, #0a5c72 100%); }
+
+.cardBody {
+  padding: 20px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.cardMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.cardCat {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--primary);
+}
+.cardReadTime {
+  font-size: 11px;
+  color: var(--muted-foreground);
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 400;
+  color: var(--foreground);
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-bottom: 8px;
+  transition: color var(--transition);
+}
+.card:hover .cardTitle { color: var(--primary); }
+
+.cardExcerpt {
+  font-size: 13px;
+  color: var(--muted-foreground);
+  line-height: 1.65;
+  flex: 1;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.cardFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.cardDate {
+  font-size: 11px;
+  color: var(--muted-foreground);
+}
+.cardCta {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--primary);
+}

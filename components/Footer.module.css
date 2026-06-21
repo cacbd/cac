@@ -1,0 +1,147 @@
+.footer {
+    position: relative;
+    background: linear-gradient(180deg, rgba(14, 116, 144, 0.92) 0%, rgba(8, 47, 73, 0.97) 100%), url('/footer-bg.jpg') no-repeat center/cover;
+    color: var(--primary-foreground);
+    padding: 80px 0 0;
+    border-top: 5px solid var(--accent);
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+@media (min-width: 640px) {
+    .top {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1024px) {
+    .top {
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 48px;
+    }
+}
+
+/* Brand */
+.brand {
+}
+
+.logo {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    text-decoration: none;
+    margin-bottom: 16px;
+}
+.logoIcon {
+    flex-shrink: 0;
+}
+.logoName {
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1.2;
+}
+.logoSub {
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.tagline {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.65);
+    line-height: 1.7;
+    max-width: 280px;
+}
+.taglineBn {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.55);
+    line-height: 1.7;
+    margin-top: 6px;
+    max-width: 280px;
+}
+
+.socials {
+    display: flex;
+    gap: 8px;
+    margin-top: 20px;
+}
+.social {
+    width: 36px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition:
+        background var(--transition),
+        color var(--transition),
+        border-color var(--transition);
+}
+.social:hover {
+    background: var(--accent);
+    color: var(--accent-foreground);
+    border-color: var(--accent);
+}
+
+/* Columns */
+.col {
+}
+.colTitle {
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 16px;
+}
+.colList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.colLink {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    transition:
+        color var(--transition),
+        padding-left var(--transition);
+    display: inline-block;
+}
+.colLink:hover {
+    color: #fff;
+    padding-left: 4px;
+}
+.colText {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.6;
+}
+.colText strong {
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+/* Bottom */
+.bottom {
+    padding: 20px 0;
+    text-align: center;
+}
+.copy {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.55);
+}
+.copyBn {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.45);
+    margin-top: 4px;
+}

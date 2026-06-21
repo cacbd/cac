@@ -1,0 +1,76 @@
+.wrapper {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 999;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.fab {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    transition:
+        transform 0.3s cubic-bezier(0.16, 1, 0.3, 1),
+        box-shadow 0.3s ease;
+    animation: fabIn 0.5s ease-out both;
+}
+.fab:first-child {
+    animation-delay: 0.3s;
+}
+.fab:last-child {
+    animation-delay: 0.1s;
+}
+
+.fab:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp {
+    background: #25d366;
+}
+.whatsapp:hover {
+    background: #20bd5a;
+}
+
+.messenger {
+    background: #0084ff;
+}
+.messenger:hover {
+    background: #0070e0;
+}
+
+@keyframes fabIn {
+    from {
+        opacity: 0;
+        transform: scale(0.5) translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        bottom: 16px;
+        right: 16px;
+    }
+    .fab {
+        width: 50px;
+        height: 50px;
+    }
+    .fab svg {
+        width: 24px;
+        height: 24px;
+    }
+}

@@ -1,0 +1,156 @@
+.section {
+    background: var(--primary);
+    color: var(--primary-foreground);
+    padding: 80px 0;
+    position: relative;
+    overflow: hidden;
+}
+@media (min-width: 640px) {
+    .section {
+        padding: 112px 0;
+    }
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    top: -100px;
+    right: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(
+        circle,
+        rgba(217, 119, 6, 0.15) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.inner {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin-bottom: 16px;
+}
+
+.title {
+    font-family: var(--font-display);
+    font-size: clamp(36px, 6vw, 64px);
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin-top: 12px;
+}
+.titleAccent {
+    font-style: italic;
+    color: var(--accent);
+}
+.titleBn {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.content {
+    max-width: 720px;
+    margin: 40px auto 0;
+}
+
+.desc {
+    font-size: clamp(16px, 2.2vw, 20px);
+    color: rgba(255, 255, 255, 0.88);
+    line-height: 1.75;
+    font-weight: 300;
+}
+.descBn {
+    font-size: clamp(13px, 1.5vw, 16px);
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.7;
+    margin-top: 12px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4px;
+    margin-top: 48px;
+    max-width: 800px;
+    margin-inline: auto;
+}
+@media (min-width: 640px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 28px 16px;
+    text-align: center;
+    transition: background var(--transition), transform var(--transition);
+    border-radius: var(--radius);
+}
+.card:hover {
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-2px);
+}
+
+.cardIcon {
+    margin: 0 auto 12px;
+    color: var(--accent);
+}
+.cardIcon svg {
+    width: 32px;
+    height: 32px;
+}
+
+.cardTitle {
+    font-family: var(--font-display);
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    line-height: 1.3;
+}
+.cardTitleBn {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-top: 4px;
+}
+
+.goalBox {
+    margin-top: 48px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: var(--radius);
+    max-width: 640px;
+    margin-inline: auto;
+}
+
+.goal {
+    font-family: var(--font-display);
+    font-size: clamp(18px, 2.5vw, 24px);
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.5;
+}
+.goal strong {
+    color: var(--accent);
+    font-weight: 600;
+}
+.goalBn {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 8px;
+}

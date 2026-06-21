@@ -1,0 +1,81 @@
+.section {
+    background: var(--muted);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 96px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(
+        ellipse at 50% 50%,
+        rgba(26, 46, 68, 0.05) 0%,
+        transparent 70%
+    );
+    pointer-events: none;
+}
+
+.inner {
+    max-width: 960px;
+    margin-inline: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.label {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.quote {
+    text-align: center;
+}
+
+.text {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 4vw, 46px);
+    font-weight: 300;
+    color: var(--foreground);
+    line-height: 1.5;
+    letter-spacing: -0.01em;
+}
+
+.highlight {
+    display: inline-flex;
+    align-items: center;
+    background: rgba(26, 46, 68, 0.08);
+    border: 1px solid rgba(26, 46, 68, 0.18);
+    color: var(--primary);
+    padding: 0 12px;
+    font-weight: 500;
+}
+
+.box {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid var(--border);
+    color: var(--foreground);
+    background: var(--card);
+    padding: 0 12px;
+}
+
+.accent {
+    display: inline-flex;
+    align-items: center;
+    background: var(--accent);
+    color: var(--accent-foreground);
+    padding: 0 12px;
+    font-weight: 500;
+}
+
+.bengali {
+    color: #7e7e7e;
+    font-size: clamp(14px, 2vw, 20px);
+    font-weight: 300;
+    margin-top: 24px;
+    line-height: 1.7;
+}
