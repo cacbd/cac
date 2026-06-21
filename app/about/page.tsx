@@ -41,7 +41,7 @@ const schema = {
       addressLocality: 'Chittagong',
       addressCountry: 'BD',
     },
-    telephone: '+8801818256123',
+    telephone: '+447762308545',
     url: 'https://cac.bd',
   },
 };
@@ -347,9 +347,9 @@ export default function AboutPage() {
         </section>
 
         {/* ============================================================
-            TEAM
+            TEAM — commented out, will be visible in the future
         ============================================================ */}
-        <section className={`${styles.section} ${styles.sectionWhite}`}>
+        {/* <section className={`${styles.section} ${styles.sectionWhite}`}>
           <div className="container">
             <p className={styles.sectionLabel}>/ Our Team / আমাদের দল</p>
             <h2 className={styles.sectionTitle}>
@@ -374,7 +374,7 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
-        </section>
+        </section> */}
 
         {/* ============================================================
             ACCREDITATIONS
@@ -418,8 +418,8 @@ export default function AboutPage() {
               <Link href="/#contact" className="btn-primary">
                 Enrol Now / এখনই ভর্তি হন
               </Link>
-              <a href="tel:01818256123" className={styles.ctaCall}>
-                Call 01818 256 123
+              <a href="tel:+447762308545" className={styles.ctaCall}>
+                Call +44 7762 308 545
               </a>
             </div>
           </div>
