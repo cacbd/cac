@@ -18,8 +18,8 @@ export const posts: BlogPost[] = [
      POST 1 — IELTS Coaching Chittagong
   ============================================================ */
   {
-    slug: 'best-ielts-coaching-chittagong-2025',
-    title: 'Best IELTS Coaching in Chittagong: Your 2025 Complete Guide',
+    slug: 'best-ielts-coaching-chittagong-2027',
+    title: 'Best IELTS Coaching in Chittagong: Your 2027 Complete Guide',
     excerpt:
       'Looking for expert IELTS coaching in Chittagong? Discover how to choose the right centre, proven Band 7+ strategies, and how Cambridge Academic Centre helps students achieve their target score.',
     metaDescription:
@@ -34,12 +34,12 @@ export const posts: BlogPost[] = [
     ],
     category: 'IELTS',
     categorySlug: 'ielts',
-    date: '10 June 2025',
-    dateISO: '2025-06-10',
+    date: '10 June 2027',
+    dateISO: '2027-06-10',
     readTime: 8,
     author: 'Cambridge Academic Centre',
     content: `
-<p>Searching for the best <strong>IELTS coaching in Chittagong</strong>? You already know how high the stakes are. A single band point can be the difference between your dream university and a rejection letter. This 2025 guide covers everything — from understanding the test to choosing the right coaching centre and building a winning preparation plan.</p>
+<p>Searching for the best <strong>IELTS coaching in Chittagong</strong>? You already know how high the stakes are. A single band point can be the difference between your dream university and a rejection letter. This 2027 guide covers everything — from understanding the test to choosing the right coaching centre and building a winning preparation plan.</p>
 
 <h2>What Is the IELTS Test?</h2>
 <p>The International English Language Testing System (IELTS) is the world's most popular English proficiency exam, accepted by over 11,000 organisations in 140+ countries. It tests four skills: <strong>Listening, Reading, Writing, and Speaking</strong>, with band scores from 1 to 9.</p>
@@ -119,7 +119,7 @@ export const posts: BlogPost[] = [
 <p>Students already at Band 5.5+ can see meaningful improvement in 4–6 focused weeks. For bigger jumps, a 2–3 month course delivers the best outcomes.</p>
 
 <h2>Start Your IELTS Journey Today</h2>
-<p>Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong>, call us on <strong>01818 256 123</strong>, or fill in our online enquiry form. We will assess your current level and recommend the right batch and start date for you.</p>
+<p>Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong>, call us on <strong>01519 300 121</strong>, or fill in our online enquiry form. We will assess your current level and recommend the right batch and start date for you.</p>
 `,
   },
 
@@ -128,11 +128,11 @@ export const posts: BlogPost[] = [
   ============================================================ */
   {
     slug: 'how-to-improve-english-speaking-skills',
-    title: '10 Proven Ways to Improve Your English Speaking Skills in 2025',
+    title: '10 Proven Ways to Improve Your English Speaking Skills in 2027',
     excerpt:
       'Struggling to speak English confidently? These 10 research-backed techniques — used by successful learners across Bangladesh — will help you move from hesitant to fluent faster than you think.',
     metaDescription:
-      'Learn 10 proven ways to improve your English speaking skills in 2025. Expert tips for Bangladeshi students and professionals on building fluency and confidence. Cambridge Academic Centre, Chittagong.',
+      'Learn 10 proven ways to improve your English speaking skills in 2027. Expert tips for Bangladeshi students and professionals on building fluency and confidence. Cambridge Academic Centre, Chittagong.',
     keywords: [
       'how to improve English speaking skills',
       'spoken English tips',
@@ -143,8 +143,8 @@ export const posts: BlogPost[] = [
     ],
     category: 'Speaking Skills',
     categorySlug: 'speaking',
-    date: '28 May 2025',
-    dateISO: '2025-05-28',
+    date: '28 May 2027',
+    dateISO: '2027-05-28',
     readTime: 7,
     author: 'Cambridge Academic Centre',
     content: `
@@ -197,7 +197,7 @@ export const posts: BlogPost[] = [
 
 <h2>Start Speaking Better English Today</h2>
 <p>At <strong>Cambridge Academic Centre, Chittagong</strong>, our Spoken English programme is designed for exactly this: turning hesitant learners into confident speakers. With small classes, experienced teachers, and a curriculum built around real-world communication, our students notice improvement within weeks.</p>
-<p>Call us on <strong>01818 256 123</strong> or visit us at <strong>146 North Nalapara, Chittagong</strong> to find out when the next batch starts.</p>
+<p>Call us on <strong>01519 300 121</strong> or visit us at <strong>146 North Nalapara, Chittagong</strong> to find out when the next batch starts.</p>
 `,
   },
 
@@ -221,8 +221,8 @@ export const posts: BlogPost[] = [
     ],
     category: 'IELTS',
     categorySlug: 'ielts',
-    date: '15 May 2025',
-    dateISO: '2025-05-15',
+    date: '15 May 2027',
+    dateISO: '2027-05-15',
     readTime: 9,
     author: 'Cambridge Academic Centre',
     content: `
@@ -318,7 +318,7 @@ export const posts: BlogPost[] = [
 
 <h2>Professional Coaching Makes the Difference</h2>
 <p>Self-study can get you to Band 6.0–6.5. Reaching Band 7 reliably requires professional feedback on your writing and speaking from a teacher who knows the marking criteria.</p>
-<p>At <strong>Cambridge Academic Centre, Chittagong</strong>, our IELTS Band 7+ programme combines this 12-week framework with expert teaching, regular mock tests, and individual feedback. Call <strong>01818 256 123</strong> or visit <strong>146 North Nalapara, Chittagong</strong> to enrol.</p>
+<p>At <strong>Cambridge Academic Centre, Chittagong</strong>, our IELTS Band 7+ programme combines this 12-week framework with expert teaching, regular mock tests, and individual feedback. Call <strong>01519 300 121</strong> or visit <strong>146 North Nalapara, Chittagong</strong> to enrol.</p>
 `,
   },
 
@@ -342,8 +342,8 @@ export const posts: BlogPost[] = [
     ],
     category: 'Kids & Teens',
     categorySlug: 'kids',
-    date: '5 May 2025',
-    dateISO: '2025-05-05',
+    date: '5 May 2027',
+    dateISO: '2027-05-05',
     readTime: 6,
     author: 'Cambridge Academic Centre',
     content: `
@@ -413,7 +413,7 @@ export const posts: BlogPost[] = [
 <p>Yes, significantly. English-medium schools use English as a medium of instruction but do not always focus on communication fluency and spoken confidence. Our course develops the natural speaking ability that classroom-based instruction often misses.</p>
 
 <h2>Give Your Child the Gift of English</h2>
-<p>There is no better long-term investment in your child's future than fluent English. Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong> or call <strong>01818 256 123</strong> to meet our teachers and see our classrooms before enrolling.</p>
+<p>There is no better long-term investment in your child's future than fluent English. Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong> or call <strong>01519 300 121</strong> to meet our teachers and see our classrooms before enrolling.</p>
 `,
   },
 
@@ -422,14 +422,14 @@ export const posts: BlogPost[] = [
   ============================================================ */
   {
     slug: 'toefl-vs-ielts-which-exam-bangladesh',
-    title: 'TOEFL vs IELTS in 2025: Which Exam Should Bangladeshi Students Choose?',
+    title: 'TOEFL vs IELTS in 2027: Which Exam Should Bangladeshi Students Choose?',
     excerpt:
-      'TOEFL or IELTS — which English proficiency exam is right for you? This comprehensive comparison of formats, scores, accepted countries, and difficulty helps Bangladeshi students make the right choice in 2025.',
+      'TOEFL or IELTS — which English proficiency exam is right for you? This comprehensive comparison of formats, scores, accepted countries, and difficulty helps Bangladeshi students make the right choice in 2027.',
     metaDescription:
-      'TOEFL vs IELTS in 2025: a complete comparison for Bangladeshi students. Formats, scores, accepted countries, difficulty, and which exam to take for UK, USA, Canada, and Australia. Cambridge Academic Centre Chittagong.',
+      'TOEFL vs IELTS in 2027: a complete comparison for Bangladeshi students. Formats, scores, accepted countries, difficulty, and which exam to take for UK, USA, Canada, and Australia. Cambridge Academic Centre Chittagong.',
     keywords: [
       'TOEFL vs IELTS Bangladesh',
-      'TOEFL vs IELTS 2025',
+      'TOEFL vs IELTS 2027',
       'which English test Bangladesh',
       'TOEFL coaching Chittagong',
       'IELTS or TOEFL for UK',
@@ -437,12 +437,12 @@ export const posts: BlogPost[] = [
     ],
     category: 'TOEFL',
     categorySlug: 'toefl',
-    date: '20 April 2025',
-    dateISO: '2025-04-20',
+    date: '20 April 2027',
+    dateISO: '2027-04-20',
     readTime: 8,
     author: 'Cambridge Academic Centre',
     content: `
-<p>Preparing for an English proficiency exam in Bangladesh but unsure whether to take <strong>TOEFL or IELTS</strong>? Both are internationally recognised and widely accepted, but they test English in different ways and suit different goals. This guide breaks down the key differences so you can make the right choice in 2025.</p>
+<p>Preparing for an English proficiency exam in Bangladesh but unsure whether to take <strong>TOEFL or IELTS</strong>? Both are internationally recognised and widely accepted, but they test English in different ways and suit different goals. This guide breaks down the key differences so you can make the right choice in 2027.</p>
 
 <h2>TOEFL vs IELTS: The Basics</h2>
 
@@ -520,7 +520,7 @@ export const posts: BlogPost[] = [
 
 <h2>Preparation Courses at Cambridge Academic Centre</h2>
 <p>At <strong>Cambridge Academic Centre, Chittagong</strong>, we offer both IELTS and TOEFL preparation courses. Our experienced teachers will assess your target institution, timeline, and current English level to recommend the best exam for you.</p>
-<p>Call <strong>01818 256 123</strong> or visit <strong>146 North Nalapara, Chittagong</strong> for a free consultation.</p>
+<p>Call <strong>01519 300 121</strong> or visit <strong>146 North Nalapara, Chittagong</strong> for a free consultation.</p>
 `,
   },
 
@@ -544,8 +544,8 @@ export const posts: BlogPost[] = [
     ],
     category: 'Business English',
     categorySlug: 'business',
-    date: '8 April 2025',
-    dateISO: '2025-04-08',
+    date: '8 April 2027',
+    dateISO: '2027-04-08',
     readTime: 7,
     author: 'Cambridge Academic Centre',
     content: `
@@ -616,9 +616,270 @@ export const posts: BlogPost[] = [
 
 <h2>Invest in Your Professional Future</h2>
 <p>A Business English course is one of the highest-ROI investments a professional can make. The skills you develop will compound over your entire career — in every email, every meeting, and every opportunity that comes your way.</p>
-<p>Take the first step today. Call <strong>Cambridge Academic Centre at 01818 256 123</strong>, visit us at <strong>146 North Nalapara, Chittagong</strong>, or fill in our online enquiry form.</p>
+<p>Take the first step today. Call <strong>Cambridge Academic Centre at 01519 300 121</strong>, visit us at <strong>146 North Nalapara, Chittagong</strong>, or fill in our online enquiry form.</p>
 `,
   },
+
+  {
+    slug: 'best-ielts-coaching-in-chittagong-ielts-course',
+    title: 'Best IELTS Coaching in Chittagong: How to Choose the Right IELTS Course (2027)',
+    excerpt:
+      'Comparing IELTS coaching in Chittagong? Learn what the best IELTS course should include, what it costs you if you choose wrong, and how Cambridge Academic Centre helps students reach their target band.',
+    metaDescription:
+      'Looking for the best IELTS coaching in Chittagong? Compare IELTS courses in Chittagong, see what a good course includes, and visit Cambridge Academic Centre, 146 North Nalapara. Call 01519 300 121.',
+    keywords: [
+      'best ielts coaching in chittagong',
+      'ielts coaching chittagong',
+      'ielts course in chittagong',
+      'chittagong cambridge school',
+      'IELTS coaching centre Chittagong',
+      'IELTS preparation Chittagong',
+      'Cambridge Academic Centre Chittagong',
+    ],
+    category: 'IELTS',
+    categorySlug: 'ielts',
+    date: '29 October 2027',
+    dateISO: '2027-10-29',
+    readTime: 8,
+    author: 'Cambridge Academic Centre',
+    content: `
+<p>If you are searching for the <strong>best IELTS coaching in Chittagong</strong>, you have probably noticed one thing: almost every centre claims to be the best. Banners promise "guaranteed Band 7", fees vary wildly, and it is hard to know what you are really paying for. This guide cuts through the noise. It explains what a genuinely good <strong>IELTS course in Chittagong</strong> looks like, which questions to ask before you pay, and how to avoid the mistakes that cost students months of time and an extra exam fee.</p>
+
+<h2>Why Your Choice of IELTS Coaching in Chittagong Matters</h2>
+<p>IELTS is not just an English test — it is a test of <em>how well you handle the IELTS format</em>. Students with strong everyday English still lose bands because of poor time management, weak Writing Task 2 structure, or untrained Speaking answers. The right coaching shortens the distance between your current level and your target band; the wrong coaching only repeats what you already know.</p>
+<p>A missed target also has real costs: another test fee, delayed university applications, or a postponed visa or migration plan. Choosing carefully the first time is the cheapest option.</p>
+
+<h2>7 Signs of the Best IELTS Coaching Centre in Chittagong</h2>
+
+<h3>1. A Free Placement Assessment Before You Enrol</h3>
+<p>A good centre tests your current level first. A student at Band 5.0 and a student at Band 6.5 need very different courses. If a centre puts everyone in the same batch without assessing them, you will either be bored or lost.</p>
+
+<h3>2. Small Batches</h3>
+<p>Speaking and Writing improve only with individual attention. Batches of 12–15 students allow every learner to speak in class and receive personal feedback. In a crowded room of 30 or more, quiet students stay silent for the whole course.</p>
+
+<h3>3. Weekly Full Mock Tests Under Exam Conditions</h3>
+<p>Mock tests are where band scores are really built. Look for a weekly full test, strict timing, and — most importantly — <strong>written feedback on your Writing</strong> against the official band descriptors, not just a number at the top of the page.</p>
+
+<h3>4. Real Speaking Practice, Not Just Theory</h3>
+<p>Ask how many minutes of one-to-one Speaking practice you personally get each week. IELTS Speaking is a live conversation with an examiner, so you need live conversation practice with a trained teacher.</p>
+
+<h3>5. Authentic Materials</h3>
+<p>Official Cambridge IELTS practice books and authentic listening recordings give you the closest experience of the real exam. Heavily photocopied "guess papers" do not.</p>
+
+<h3>6. Teachers Who Know the Marking Criteria</h3>
+<p>Your teacher should be able to explain exactly why your essay is Band 6 and what would make it Band 7 — using Task Response, Coherence and Cohesion, Lexical Resource, and Grammatical Range and Accuracy.</p>
+
+<h3>7. Honest Promises</h3>
+<p>No centre can legitimately guarantee a band score. Your result depends on your starting level, your effort, and your performance on the day. Be cautious about any centre that guarantees results; prefer one that gives you a clear plan and honest progress tracking.</p>
+
+<h2>What Should an IELTS Course in Chittagong Include?</h2>
+<p>Whatever centre you choose, a complete <strong>IELTS course in Chittagong</strong> should cover all four skills with a clear method for each:</p>
+<ul>
+<li><strong>Listening:</strong> Practice with authentic recordings, spelling accuracy, and strategies for each question type</li>
+<li><strong>Reading:</strong> Skimming, scanning, and True/False/Not Given technique, with strict timing</li>
+<li><strong>Writing:</strong> Task 1 data description (Academic) or letter writing (General Training), and Task 2 essay structure, with teacher-marked feedback</li>
+<li><strong>Speaking:</strong> Part 1, 2, and 3 frameworks, vocabulary range, and fluency practice</li>
+<li><strong>Mock tests:</strong> Regular full-length tests and detailed review of mistakes</li>
+</ul>
+
+<h2>IELTS Academic or General Training?</h2>
+<p>Choose <strong>IELTS Academic</strong> if you are applying to a university abroad or to a professional registration body. Choose <strong>IELTS General Training</strong> if you are applying for work or migration purposes, for example to Canada or Australia. Always confirm the exact test type and required score with your university, employer, or immigration authority before you book. A good coaching centre will help you confirm this at your first consultation.</p>
+
+<h2>Cambridge Academic Centre: IELTS Coaching in Chittagong</h2>
+<p><strong>Cambridge Academic Centre (CAC)</strong> is an English language and test-preparation centre at <strong>146 North Nalapara, Chittagong</strong>. Our IELTS programme is built around one goal: helping you reach your target band with a clear plan. Here is what students get:</p>
+<ul>
+<li><strong>Free placement assessment</strong> before the course begins, so you join the right level</li>
+<li><strong>Small batches</strong> of 12–15 students maximum</li>
+<li><strong>Weekly mock tests</strong> with detailed written feedback</li>
+<li><strong>Speaking Clinic</strong> with individual one-on-one time each week</li>
+<li><strong>Listening Lab</strong> using authentic Cambridge practice recordings</li>
+<li><strong>Writing Workshop</strong> focused on Task 1 and Task 2 structure</li>
+</ul>
+<p>Our students have gone on to study in countries including the UK, Canada, Australia, Germany, and Malaysia.</p>
+
+<h2>Looking for a "Cambridge School" in Chittagong? Read This</h2>
+<p>Many families search for a <strong>Cambridge school in Chittagong</strong>. It is worth being clear about the difference. A <em>Cambridge school</em> usually means a full-time school that teaches the Cambridge curriculum (such as IGCSE or A Level). <strong>Cambridge Academic Centre is not a full-time school</strong> — it is a specialist English and test-preparation centre. Students come to us <em>in addition to</em> their regular school or university to build English fluency and prepare for exams such as IELTS and TOEFL.</p>
+<p>If your child attends a Cambridge-curriculum or English-medium school, our courses can complement it by strengthening speaking confidence, academic writing, and IELTS readiness — areas where classroom teaching often has limited time. We also offer English classes for children and teens aged 5–17 in age-grouped batches.</p>
+
+<h2>How Long Will Your IELTS Preparation Take?</h2>
+<p>Every learner is different, but as a general guide:</p>
+<ul>
+<li><strong>Starting around Band 4–5:</strong> plan for roughly 4–6 months of structured coaching</li>
+<li><strong>Starting around Band 5–6:</strong> roughly 2–3 months of focused preparation</li>
+<li><strong>Starting around Band 6–7:</strong> roughly 4–8 weeks of strategy refinement and mock tests</li>
+</ul>
+<p>Our free placement assessment gives you a more accurate estimate based on your real current level.</p>
+
+<h2>Questions to Ask Before You Pay Any IELTS Centre</h2>
+<ol>
+<li>Is there a placement test, and will I be placed in a batch that matches my level?</li>
+<li>How many students are in each batch?</li>
+<li>How often are full mock tests held, and who marks my Writing?</li>
+<li>How much individual Speaking practice will I get every week?</li>
+<li>Which materials do you use? Are they official or authentic?</li>
+<li>What is the total fee, and what exactly does it include?</li>
+</ol>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Which is the best IELTS coaching centre in Chittagong?</h3>
+<p>The best centre is the one that fits your level, schedule, and goals. Judge centres by their teaching method — placement testing, small batches, weekly mock tests, marked Writing feedback, and real Speaking practice — rather than by advertising claims. We invite you to visit Cambridge Academic Centre, meet our teachers, and compare us with any other centre.</p>
+
+<h3>How much does an IELTS course in Chittagong cost?</h3>
+<p>Fees differ between centres and depend on course length, batch size, and what is included (mock tests, materials, Speaking practice). Call us on <strong>01519 300 121</strong> for current fee details and available batches.</p>
+
+<h3>Can I join if my English is weak?</h3>
+<p>Yes. Our placement assessment identifies your level, and we recommend a suitable batch and timeline. Students with a lower starting level should plan for a longer course.</p>
+
+<h3>Do you offer IELTS coaching for both Academic and General Training?</h3>
+<p>Yes. Tell us your purpose — university, work, or migration — and we will guide you on the correct test type and preparation focus.</p>
+
+<h3>Where is Cambridge Academic Centre located?</h3>
+<p>We are at <strong>146 North Nalapara, Chittagong</strong>. You can visit us in person, call <strong>01519 300 121</strong>, or send an enquiry through our website.</p>
+
+<h2>Book Your Free Placement Assessment</h2>
+<p>Do not choose your IELTS coaching in Chittagong on price or advertising alone. Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong>, take our free placement assessment, and see the classrooms and teaching method for yourself. Call <strong>01519 300 122</strong> or fill in our online enquiry form to find out when the next IELTS batch starts.</p>
+`,
+  },
+  {
+    slug: 'spoken-english-course-in-chittagong',
+    title: 'Spoken English Course in Chittagong: How to Improve Your English Speaking Skills Fast (2027)',
+    excerpt:
+      'Choosing a spoken English course in Chittagong? Learn what a good course includes, how to improve your English speaking skills, and how a coaching centre can support students from British-curriculum and English-medium schools.',
+    metaDescription:
+      'Spoken English course in Chittagong for students and professionals. Improve your English speaking skills with small batches and real practice. Cambridge Academic Centre, 146 North Nalapara. Call 01519 300 121.',
+    keywords: [
+      'english spoken course in chittagong',
+      'spoken english course in chittagong',
+      'english speaking skills improvement',
+      'chittagong coaching center',
+      'british curriculum school near me',
+      'ctb international school chittagong',
+      'british council chattogram',
+      'Cambridge Academic Centre Chittagong',
+    ],
+    category: 'Speaking Skills',
+    categorySlug: 'speaking',
+    date: '29 October 2027',
+    dateISO: '2027-10-29',
+    readTime: 8,
+    author: 'Cambridge Academic Centre',
+    content: `
+<p>You have studied English for years. You can read it, you can write it, and you may even score well in written exams — yet when it is time to speak, the words do not come. If this sounds familiar, a <strong>spoken English course in Chittagong</strong> built around real conversation practice is the most direct way to fix it. This guide explains what such a course should include, how to improve your English speaking skills step by step, and how to choose the right <strong>coaching centre in Chittagong</strong> for your goals.</p>
+
+<h2>Why Speaking Is the Hardest Skill to Improve</h2>
+<p>Reading and writing can be practised alone, silently, at your own pace. Speaking happens live, with no time to look up a word or fix a sentence. It also carries an emotional load: fear of mistakes, fear of judgement, and fear of an unfamiliar accent. This is why many learners with good grammar still hesitate in conversation.</p>
+<p>The solution is not more grammar books. It is regular, supported speaking practice — and that is exactly what a good spoken English course provides.</p>
+
+<h2>What a Good Spoken English Course in Chittagong Should Include</h2>
+<ul>
+<li><strong>A level check at the start:</strong> A short speaking assessment so you join a batch that matches your level</li>
+<li><strong>Small batches:</strong> Enough speaking time for every student in every class</li>
+<li><strong>Conversation-first lessons:</strong> Most class time spent speaking, not listening to the teacher lecture</li>
+<li><strong>Pronunciation and intonation work:</strong> Clear stress, rhythm, and sounds, not just correct vocabulary</li>
+<li><strong>Useful phrases for real situations:</strong> Introductions, workplace talk, phone calls, interviews, daily life</li>
+<li><strong>Corrective feedback:</strong> Kind but specific correction, so you know exactly what to improve</li>
+<li><strong>Listening practice:</strong> Because you cannot speak well in a conversation you cannot follow</li>
+<li><strong>Progress tracking:</strong> Clear signs that you are improving, week by week</li>
+</ul>
+
+<h2>10 Practical Ways to Improve Your English Speaking Skills</h2>
+
+<h3>1. Speak Every Day, Even Briefly</h3>
+<p>Ten to fifteen minutes of daily speaking beats a long session once a week. Describe your day aloud, explain what you are cooking, or talk through your plans for tomorrow.</p>
+
+<h3>2. Record and Review Yourself</h3>
+<p>Record a one-minute answer on your phone, listen back, and note unclear words, long pauses, and repeated phrases. Then record it again. Improvement becomes visible very quickly.</p>
+
+<h3>3. Learn Phrases, Not Single Words</h3>
+<p>Speakers sound fluent because they use ready-made chunks such as "to be honest", "it depends on", and "I'm looking forward to". Collect these phrases and reuse them.</p>
+
+<h3>4. Shadow Native or Fluent Speakers</h3>
+<p>Play a short clip, pause, and repeat it, copying the rhythm and tone. Shadowing trains your mouth and ear together.</p>
+
+<h3>5. Think in English</h3>
+<p>Try forming simple thoughts directly in English instead of translating from Bangla. Start with small things: what you see, what you want, what you plan to do.</p>
+
+<h3>6. Do Not Wait for Perfect Grammar</h3>
+<p>Fluency grows from communicating, not from avoiding mistakes. A corrected mistake is a lesson you will remember.</p>
+
+<h3>7. Build Vocabulary by Topic</h3>
+<p>Prepare words for the situations you actually face: work, study, travel, family, technology. Use each new word in a spoken sentence the same day.</p>
+
+<h3>8. Listen Actively</h3>
+<p>Watch interviews, talks, and documentaries in English. Repeat interesting sentences aloud and notice how speakers link ideas.</p>
+
+<h3>9. Find Conversation Partners</h3>
+<p>Speaking with classmates, friends, or a tutor gives you the unpredictability of real conversation. A class environment makes this easier because everyone is there to practise.</p>
+
+<h3>10. Get Feedback From a Trained Teacher</h3>
+<p>Self-study can take you far, but a teacher notices patterns you cannot hear in yourself — pronunciation habits, repeated grammar errors, and unnatural phrasing — and gives you targeted exercises to fix them.</p>
+
+<h2>Who Is a Spoken English Course For?</h2>
+<ul>
+<li><strong>School students</strong> who want to speak confidently in class, in presentations, and in interviews</li>
+<li><strong>University students</strong> preparing for study abroad, scholarships, or group discussions</li>
+<li><strong>Job seekers and professionals</strong> who need English for interviews, meetings, calls, and emails</li>
+<li><strong>IELTS candidates</strong> whose Speaking score is lower than their other skills</li>
+<li><strong>Parents</strong> looking for a speaking-focused programme for their children</li>
+</ul>
+
+<h2>Choosing a Coaching Centre in Chittagong: A Quick Checklist</h2>
+<p>There are many coaching centres in Chittagong, and they are not all the same. Before you pay, ask:</p>
+<ol>
+<li>How many students are in each batch?</li>
+<li>How much time will I personally speak in each class?</li>
+<li>Who are the teachers and how do they give feedback?</li>
+<li>Is there a level assessment before I join?</li>
+<li>What exactly is included in the fee?</li>
+<li>Can I visit the classroom and meet a teacher first?</li>
+</ol>
+<p>A centre that happily answers all six questions is usually a good sign.</p>
+
+<h2>Searching for a British Curriculum School Near You? Where Coaching Fits In</h2>
+<p>Many parents searching for a <strong>British curriculum school near them</strong> are looking for an education that builds strong English alongside academics. Schools in Chittagong that follow British or international curricula, including schools such as CTB International School, are full-time schools with their own admissions, fees, and programmes. For accurate details, always contact the school directly.</p>
+<p><strong>Cambridge Academic Centre is an independent English language and test-preparation centre. We are not a school, and we are not affiliated with any school or examination board.</strong> Students join us <em>in addition to</em> their regular school or university. This is especially useful because even in English-medium and British-curriculum schools, classroom time for speaking practice is limited. A speaking-focused course can build the fluency, pronunciation, and confidence that the school timetable cannot always provide.</p>
+<p>We offer age-grouped English classes for children and teens aged 5–17, so younger learners study with peers of a similar level.</p>
+
+<h2>British Council Chattogram and Your Exam Plans</h2>
+<p>If you are planning an English proficiency exam, you may also be searching for the <strong>British Council in Chattogram</strong>. The British Council is an organisation that provides English-language services and exam-related information, and IELTS test registration is done through official test providers. Cambridge Academic Centre is independent of the British Council. We do not run the official exam; we help you prepare for it. Always check the official IELTS or British Council website for current test dates, fees, venues, and registration rules, as these can change.</p>
+<p>Once you know your test date, a speaking-focused course is one of the best ways to prepare, because the IELTS Speaking test is a live conversation with an examiner. If you need exam-specific preparation, see our guide to <strong>IELTS coaching in Chittagong</strong>.</p>
+
+<h2>Spoken English at Cambridge Academic Centre, Chittagong</h2>
+<p>At <strong>Cambridge Academic Centre, 146 North Nalapara, Chittagong</strong>, our spoken English programme is designed to move learners from hesitation to confident conversation. You can expect:</p>
+<ul>
+<li>Small batches, so you speak in every class</li>
+<li>Conversation-based lessons with practical, real-life topics</li>
+<li>Pronunciation and fluency coaching with regular teacher feedback</li>
+<li>A friendly environment where mistakes are treated as part of learning</li>
+<li>Options for school students, university students, and working professionals</li>
+</ul>
+
+<h2>How Long Does It Take to Improve?</h2>
+<p>Progress depends on your starting level and how often you practise. Many learners notice more confidence within the first few weeks of regular speaking practice, while comfortable everyday conversation usually takes several months of consistent work. Our level assessment will give you a more realistic timeline.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is there a good spoken English course in Chittagong for beginners?</h3>
+<p>Yes. Beginners should look for a course that starts with simple, everyday conversation and builds up gradually. At Cambridge Academic Centre, a level check helps place you in a suitable batch.</p>
+
+<h3>Can working professionals join?</h3>
+<p>Yes. Our programme suits professionals who need English for meetings, calls, interviews, and presentations. Call us to ask about available batch timings.</p>
+
+<h3>Is Cambridge Academic Centre a school?</h3>
+<p>No. We are an English language and test-preparation centre. Students attend alongside their regular school, college, university, or job.</p>
+
+<h3>How can I improve my English speaking skills at home?</h3>
+<p>Speak aloud daily, record yourself, learn phrases instead of single words, shadow fluent speakers, and get regular feedback from a teacher or conversation partner.</p>
+
+<h3>Where are you located?</h3>
+<p>We are at <strong>146 North Nalapara, Chittagong</strong>. Call <strong>01519 300 121</strong> to ask about fees and current batches.</p>
+
+<h2>Start Speaking With Confidence</h2>
+<p>You do not need perfect English to begin — you need regular practice and the right support. Visit <strong>Cambridge Academic Centre at 146 North Nalapara, Chittagong</strong>, meet our teachers, and see how our classes work. Call <strong>01519 300 121</strong> or fill in our online enquiry form to find out when the next spoken English batch begins.</p>
+`,
+  },
+
 ];
 
 /* ============================================================
