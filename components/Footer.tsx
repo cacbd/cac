@@ -124,8 +124,8 @@ export default function Footer() {
                 Chittagong, Bangladesh
               </li>
               <li>
-                <a href="tel:+8801818256123" className={styles.colLink}>
-                  +88 01818 256 123
+                <a href="tel:+880151300121" className={styles.colLink}>
+                  +88 01519 300 121
                 </a>
               </li>
               <li>
