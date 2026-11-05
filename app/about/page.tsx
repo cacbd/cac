@@ -63,7 +63,7 @@ const timeline = [
     year: 'Phase 3',
     en: 'Assembly of DELTA-certified instructors and high-tech IELTS Prep Lab',
     bn: 'ডেল্টা-সার্টিফাইড শিক্ষক দল এবং উচ্চ-প্রযুক্তি আইইএলটিএস প্রিপারেশন ল্যাব',
-    active: true,
+    active: false,
   },
   {
     year: 'Phase 4',
@@ -75,7 +75,7 @@ const timeline = [
     year: 'Phase 5',
     en: 'Expansion into Business English and dedicated online mock-test platform',
     bn: 'ব্যবসায়িক ইংরেজি এবং অনলাইন মক-টেস্ট প্ল্যাটফর্মে সম্প্রসারণ',
-    active: false,
+    active: true,
   },
 ];
 

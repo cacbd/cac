@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/about", label: "About" },
   { href: "/#courses", label: "Courses" },
   { href: "/#why-parents", label: "Why Us" },
+  { href: "/assessment", label: "Level Test" },
   { href: "/mock-tests", label: "Mock Tests" },
   { href: "/blog", label: "Blog" },
   { href: "/#contact", label: "Contact" },
@@ -60,7 +61,7 @@ export default function Header() {
           </nav>
 
           <div className={styles.actions}>
-            <a href="#contact" className={`btn-primary ${styles.ctaBtn}`}>
+            <a href="/#contact?type=admission" className={`btn-primary ${styles.ctaBtn}`}>
               Enrol Now
             </a>
             <button
@@ -102,7 +103,7 @@ export default function Header() {
           </div>
           <div className={styles.drawerFooter}>
             <a
-              href="#contact"
+              href="/#contact?type=admission"
               className="btn-primary"
               style={{ width: "100%", justifyContent: "center" }}
               onClick={() => setMenuOpen(false)}

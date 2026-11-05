@@ -50,6 +50,21 @@ export default function Admissions() {
                 </div>
               </div>
             </div>
+
+            {/* CTA Buttons */}
+            <div style={{ marginTop: '32px', display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <a href="/#contact?type=admission" className="btn-primary">
+                Apply for Admission / অনলাইনে ভর্তি আবেদন করুন →
+              </a>
+              <a
+                href="https://wa.me/8801519300121?text=Hello%2C%20I%20want%20to%20know%20more%20about%20admissions."
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-outline"
+              >
+                WhatsApp Inquiry
+              </a>
+            </div>
           </div>
 
           {/* Right Side: Flyer Image */}

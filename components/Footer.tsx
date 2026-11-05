@@ -69,7 +69,7 @@ export default function Footer() {
               </a>
               {/* WhatsApp */}
               <a
-                href="https://wa.me/447762308545"
+                href="https://wa.me/8801519300121"
                 aria-label="WhatsApp"
                 className={styles.social}
               >
@@ -124,8 +124,18 @@ export default function Footer() {
                 Chittagong, Bangladesh
               </li>
               <li>
-                <a href="tel:+880151300121" className={styles.colLink}>
+                <a href="tel:+8801519300121" className={styles.colLink}>
                   +88 01519 300 121
+                </a>
+              </li>
+              <li>
+                <a href="tel:+8801519300122" className={styles.colLink}>
+                  +88 01519 300 122
+                </a>
+              </li>
+              <li>
+                <a href="tel:+8801519300123" className={styles.colLink}>
+                  +88 01519 300 123
                 </a>
               </li>
               <li>

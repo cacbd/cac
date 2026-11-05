@@ -59,7 +59,7 @@ export default function Hero() {
             <a href="#courses" className="btn-primary">
               Explore Courses / কোর্স দেখুন
             </a>
-            <a href="#contact" className="btn-outline">
+            <a href="/#contact?type=admission" className="btn-outline">
               Enrol Now / এখনই ভর্তি হন
             </a>
           </div>

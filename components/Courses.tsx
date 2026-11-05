@@ -216,13 +216,19 @@ export default function Courses() {
                   <p className={styles.cardDescBn}>{c.descBn}</p>
                 </div>
                 {c.featured ? (
-                  <a href="#contact" className={`${styles.cardCta} ${styles.cardCtaFeatured} group`}>
+                  <a
+                    href={`/#contact?type=admission&course=${encodeURIComponent(c.title)}`}
+                    className={`${styles.cardCta} ${styles.cardCtaFeatured} group`}
+                  >
                     Enrol Now / এখনই ভর্তি হন
                     <span className={styles.ctaLine}></span>
                   </a>
                 ) : (
-                  <a href="#contact" className={styles.cardCta}>
-                    Learn More / আরও জানুন →
+                  <a
+                    href={`/#contact?type=inquiry&course=${encodeURIComponent(c.title)}`}
+                    className={styles.cardCta}
+                  >
+                    Enquire Now / আরও জানুন →
                   </a>
                 )}
               </div>

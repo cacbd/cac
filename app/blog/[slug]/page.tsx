@@ -138,7 +138,7 @@ export default function BlogPostPage({
                 <p className={styles.ctaText}>146 North Nalapara, Chittagong</p>
                 <div className={styles.ctaButtons}>
                   <a href="tel:01818256123" className={styles.ctaPhone}>
-                    📞 Call 01818 256 123
+                    📞 Call 01519 300 121
                   </a>
                   <a href="/#contact" className={styles.ctaEnquire}>
                     Enquire Online
